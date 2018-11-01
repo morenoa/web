@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snap On CLAK Fright Dock</title>
+  </head>
+  <body>
+    <div class="container" id="login-div">
+      <div class="box">
+        <div class="topBox">
+          <h2>Login Form</h2>
+        </div>
+
+        <form class="login-container">
+          <p>
+          <input class="input" type="text" id="email_field">
+          <label>Login</label></p>
+          <p>
+          <input class="input" type="text" id="password_field">
+          <label>Password</label></p>
+          <button onclick="signIN()">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container" id="select-div">
+      <div class="box">
+        <div class="boxButton" style="padding-top: 5%; padding-bottom: 5%;">
+          <button>Build</button>
+          <button>Complete</button>
+          <button>Pending</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="ship-div">
+      <div class="box">
+        <div class="shipContainer">
+          <div class="shipFieldContainer">
+            <div class="vertical-center">
+              <select style="height: 28px;">
+                <option></option>
+                <option>Carriers</option>
+              </select>
+              <input type="text">
+              <input type="text">
+            </div>
+          </div>
+          <div class="shipFieldContainer">
+            <div class="vertical-center">
+              <input style="width:100%;" type="text">
+            </div>
+          </div>
+          <div class="shipFieldContainer">
+            <div class="vertical-center">
+              <input style="width:10%;" type="text">
+              <select style="height: 28px;">
+                <option></option>
+                <option>Pkg</option>
+              </select>
+              <input style="width:50%;" type="text">
+              <input style="width:10%;" type="text">
+              <button style="border-radius:50%;">+</button>
+            </div>
+          </div>
+          <div class="shipFieldContainer">
+            <div class="vertical-center">
+              <label>Total Units</label>
+              <label>Total Weight</label>
+              <button>Done</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAqEs9UzmkEYFfLgxHPo6SPZlbJpEFrCKw",
+      authDomain: "fright-dock.firebaseapp.com",
+      databaseURL: "https://fright-dock.firebaseio.com",
+      projectId: "fright-dock",
+      storageBucket: "fright-dock.appspot.com",
+      messagingSenderId: "531270997213"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+
+  </body>
+</html>

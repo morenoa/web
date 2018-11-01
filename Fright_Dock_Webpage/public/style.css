@@ -1,0 +1,128 @@
+body{
+  background-color: rgba(255,255,255,1.0);
+}
+
+.shipFieldContainer{
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.shipFieldContainer input{
+  width: 30%;
+  margin: auto;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.shipContainer{
+  margin: auto;
+  width: 90%;
+  height: 500px;
+}
+
+.login-container{
+  padding: 10%;
+  height: 50%;
+  width: 80%;
+  background-color: rgba(255,255,255,0.85);
+  margin: auto;
+}
+
+.container{
+  width: 375px;
+  height: 100vh;
+  padding-top: 10%;
+  width: 80vw;
+  margin: auto;
+}
+
+.box{
+  background-color: rgba(113,112,116,0.85);
+  border-radius: 15px;
+  margin: auto;
+  width: 75%;
+}
+
+.boxButton button{
+  display: block;
+  margin:  auto;
+  width: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.buttonContainer {
+  margin: auto;
+  width: 30%;
+}
+
+.topBox:hover{
+  color:rgba(255,255,255,1.0)!important;
+  background-color:rgba(0,0,0,1.0)!important;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.box:hover{
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.input{
+  padding:8px;
+  display:block;
+  border:none;
+  border-bottom:1px solid #ccc;
+  width:100%
+}
+
+button{
+  border-radius: 5px;
+  background-color: rgba(237,28,36,1.0);
+  border: 1px solid rgba(237,28,36,1.0);
+}
+
+button:hover{
+  background: rgba(138,16,21,1.0);
+  cursor: pointer;
+  border: 1px solid rgba(138,16,21,1.0);
+  color: rgba(255,255,255,1.0);
+}
+
+/* .login{
+  background-color: rgba(255,255,255,0.85);
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.login input{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.login button{
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.login label{
+  display: block;
+  text-align: right;
+  width: 25%;
+} */
